@@ -167,6 +167,17 @@ footer{
      font-size: 32px;
     
  }
+ .fab{
+     font-size: 32px;
+ }
+ .fa-instagram{
+    color: crimson; 
+    
+ }
+ .fa-snapchat{
+    color: crimson; 
+    
+ }
  .followme{
      flex: 1;
      width: 50%;
@@ -305,8 +316,14 @@ footer{
          margin-left: 15px;
          display: inline-flex;
          font-size: 32px;
+         padding: 2px;
         
      }
+        
+     .fab{
+        font-size: 20px;
+    }
+
      .followme{
          margin-top: 20px;
          height: 100px;
@@ -322,4 +339,8 @@ footer{
         display: inline-flex;
         list-style: none;
     }
+
+
+
+
 }
