@@ -51,15 +51,20 @@ nav ul li:hover{
 
 }
 
-.description{
-    position: relative;
-    top: 200px;
-    left: 450px;
+main{
+    
     color:silver;
+    text-align: center;
     
     width: fit-content;
     padding: 10px;
     /* box-shadow: 3px 3px 5px 3px rgba(192, 192, 192, 0.726); */
+    
+}
+.description{
+    position: relative;
+    top: 200px;
+    left: 420px;
     
 }
 .drpmnu{
@@ -97,21 +102,7 @@ h1{
     color: rgba(255, 243, 74, 0.664);
     font-size: 70px;
 }
-.mainpage{
-    position: relative;
-    left: 750px;
-    top: 600px;
-}
 
-.mainpage ul li {
-    margin: 5px;
-    margin-left: 10px;
-    display: inline-flex;
-    font-size: 32px;
-    position: relative;
-    left: 450px;
-    top: 200px;
-}
 
 .hire{
     background-color: rgba(255, 0, 51, 0.555);
@@ -154,10 +145,36 @@ h1{
 
 
 footer{
-   
+    
+    position: relative;
+    display: flex;
+    
+    
     color: white;
 }
-footer>ul>li{
+.mainpage{
+    flex: 1;
+    width: 50%;
+    margin-top: 220px;
+    margin-right: -130px;
+    text-align: right;
+ }
+ 
+ .mainpage ul li {
+     margin: 5px;
+     margin-left: 10px;
+     display: inline-flex;
+     font-size: 32px;
+    
+ }
+ .followme{
+     flex: 1;
+     width: 50%;
+     margin-top: 350px;
+     text-align: right
+ }
+
+.followme>ul>li{
     display: inline-flex;
     list-style: none;
 }
@@ -264,28 +281,45 @@ footer>ul>li{
     top: 20px;
     left: 00px;
     color:silver;
-    
-
     padding: 10px;
-    /* box-shadow: 3px 3px 5px 3px rgba(219, 97, 97, 0.568);  */
-text-align: center;
-}
-
-  }
-
-  .mainpage{
-   position: relative;
-   left: 90px;
-   top: 10px;
-} 
+    text-align: center;
+     }
 
 
+     footer{
+         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+       
+        color: white;
+    }
+    .mainpage{
+        flex: 1;
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 100px;
+     }
+     
+     .mainpage ul li {
+         margin: 5px;
+         margin-left: 25px;
+         display: inline-flex;
+         font-size: 32px;
+        
+     }
+     .followme{
+         margin-top: 20px;
+         height: 120px;
+         display: flex;
+         flex: 1;
+         width: 50%;
+         font-size: 16px;
+     }
+     
+    .followme>ul>li{
 
-footer>ul>li{
-    display: inline-flex;
-    list-style: none;
-    position: relative;
-    padding-left: 10px;
-    top: -40px;
-    left: 180px;
+        
+        display: inline-flex;
+        list-style: none;
+    }
 }
