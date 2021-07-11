@@ -1,11 +1,25 @@
+:root{
+
+    --background-color: rgba(90, 87, 87, 0.74);
+    --color-head:skyblue;
+    /* --border:solid skyblue 2px; */
+   
+}
+
+
+
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
 body{
     background-image: url("images/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg");
-    background-size: contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position:center ;
     background-color: black;
@@ -15,16 +29,20 @@ body{
     
 }
 nav{
-    margin-top: 5px;
-    background-color: rgba(90, 87, 87, 0.726);
+    
+    background-color: var(--background-color);
     color: rgb(239, 248, 255);
     font-size: 14px;
-    text-align: right;
+    
 
     
 }
+
 nav > ul{
-    display: inline-flex;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
     list-style: none;
 
 }
@@ -38,6 +56,7 @@ nav > ul li{
 nav ul li a{
     color:rgb(239, 248, 255);
     text-decoration: none;
+    
     
 }
 nav ul li a:visited{
@@ -112,22 +131,21 @@ h1{
     width: 250px;
     border: solid white;
 }
+
 .hire:hover{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.041);
     font-weight: 700;
     color:white;
     height: 35px;
     width: 250px;
     border: solid black ;
-    font-size: 18px;
-
-   
+    font-size: 18px; 
 }
 
 
 .PROJECTS{
     margin-left: 2px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.062);
     font-weight: 700;
     color:white;
     height: 35px;
